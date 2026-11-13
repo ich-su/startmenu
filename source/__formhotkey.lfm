@@ -1,0 +1,58 @@
+object FormHotkey: TFormHotkey
+  Left = 696
+  Height = 216
+  Top = 215
+  Width = 252
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  ClientHeight = 216
+  ClientWidth = 252
+  KeyPreview = True
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  Position = poScreenCenter
+  LCLVersion = '2.0.12.0'
+  object ButtonClose: TButton
+    Left = 82
+    Height = 25
+    Top = 176
+    Width = 88
+    Caption = 'Закрыть'
+    ModalResult = 11
+    TabOrder = 2
+  end
+  object StaticText: TStaticText
+    Left = 24
+    Height = 61
+    Top = 24
+    Width = 216
+    Caption = 'Нажмите сочетание клавишь, чтобы увидеть их правильное обозначение:'
+    TabOrder = 0
+  end
+  object LabelHotkey: TLabel
+    Left = 24
+    Height = 1
+    Top = 88
+    Width = 1
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object ButtonCopy: TButton
+    Left = 24
+    Height = 25
+    Top = 120
+    Width = 104
+    Caption = 'Скопировать'
+    Enabled = False
+    OnClick = ButtonCopyClick
+    TabOrder = 1
+  end
+  object LabelOK: TLabel
+    Left = 136
+    Height = 1
+    Top = 124
+    Width = 1
+    ParentColor = False
+  end
+end
