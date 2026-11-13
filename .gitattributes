@@ -1,0 +1,14 @@
+text
+
+* binary
+
+*.md text
+*.txt text
+.gitattributes text
+
+.gitattributes export-ignore
+.gitignore export-ignore
+.gitkeep export-ignore
+.github/ export-ignore
+
+screenshots/ export-ignore
