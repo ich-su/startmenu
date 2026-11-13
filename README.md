@@ -40,4 +40,4 @@ Lazarus, как среда разработки, вылез случайно. Т
 [github.com/ich-su/startmenu](https://github.com/ich-su/startmenu)
 
 страница на ich.su:
-[ich.su/startmenu](https://ich.su/startmenu/)
+[ich.su/startmenu](https://ich.su/startmenu)
