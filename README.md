@@ -32,7 +32,8 @@ Lazarus, как среда разработки, вылез случайно. Т
 * ![](./screenshots/03.png)
 * ![](./screenshots/04.png)
 * ![](./screenshots/05.png)
-
+* ![](./screenshots/06.png)
+  
 #
 
 страница проекта на гитхабе:
